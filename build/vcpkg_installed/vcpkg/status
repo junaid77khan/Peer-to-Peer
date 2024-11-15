@@ -1,0 +1,405 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: bdc03e7eed5e47ed129ee3535866ebd4afe3001f345cf74d4bd9c6805cab093f
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 879a52f5fdac867fdf046d0d670f94fcbb9755a59c162938a3ce28d24b8de0e6
+Status: install ok installed
+
+Package: fmt
+Version: 11.0.2
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 90827a9245d87865bd8cbe72eb04e203a37ad1e3a9a46ef939613901ac000baa
+Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+Status: install ok installed
+
+Package: nlohmann-json
+Version: 3.11.3
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 674fb5d4f801ee81bc7e32387f6eb7d458cfe0e76b37bbe4df90e4bc28616455
+Description: JSON for Modern C++
+Status: install ok installed
+
+Package: libwebp
+Version: 1.4.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a672ce4dabcda9721dddcda39d66959cd80b51492d57db9429cdf00ba2392ff3
+Description: WebP codec: library to encode and decode images in WebP format
+Default-Features: libwebpmux, nearlossless, simd
+Status: install ok installed
+
+Package: libwebp
+Feature: libwebpmux
+Architecture: x64-windows
+Multi-Arch: same
+Description: Build the libwebpmux library
+Status: install ok installed
+
+Package: libwebp
+Feature: nearlossless
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable near-lossless encoding
+Status: install ok installed
+
+Package: libwebp
+Feature: simd
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable any SIMD optimization.
+Status: install ok installed
+
+Package: libwebp
+Feature: unicode
+Architecture: x64-windows
+Multi-Arch: same
+Description: Build Unicode executables. (Adds definition UNICODE and _UNICODE)
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 1f9fd2eb1ac12b626b7a5c0de6daeedb0f36d55ae766e3d082be3022dabb66ad
+Description: A compression library
+Status: install ok installed
+
+Package: liblzma
+Version: 5.6.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 23ac810d08f865888200f9993c784a02f0be772b535b07c070f1309959dc4382
+Description: Compression library with an API similar to that of zlib.
+Status: install ok installed
+
+Package: libjpeg-turbo
+Version: 3.0.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 9e00645b148c1470f1e14f61c85d02f710ea15435a97e8a714cc163bef26203c
+Description: libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX, SSE2, NEON, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, ARM, and PowerPC systems.
+Status: install ok installed
+
+Package: tiff
+Version: 4.7.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 730c86dfa89e13d9ceaa5d1ac1f92878f216cb74a05eecc1cc87d4a870be73c2
+Description: A library that supports the manipulation of TIFF image files
+Default-Features: jpeg, lzma, zip
+Status: install ok installed
+
+Package: tiff
+Feature: jpeg
+Depends: libjpeg-turbo
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support JPEG compression in TIFF image files
+Status: install ok installed
+
+Package: tiff
+Feature: lzma
+Depends: liblzma
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support LZMA compression in TIFF image files
+Status: install ok installed
+
+Package: tiff
+Feature: zip
+Depends: zlib
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support ZIP/deflate compression in TIFF image files
+Status: install ok installed
+
+Package: quirc
+Version: 1.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 59ff50dcb6502317bdca2dc5c0c8b0c665c6c94aaa58f8b26af9fb7bdb0e151c
+Description: quirc is one of the C library available for scanning QR Codes
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.43
+Port-Version: 3
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 241f0df205632897370fe851f1169157c6e18e1114ccbe58e39112f6c84bac1d
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: install ok installed
+
+Package: abseil
+Version: 20240722.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 2f81ba1f9468e8c1f79ca257d10170207066dc40f14ff9d42f13c6f70f55dea7
+Description: Abseil is an open-source collection of C++ library code designed to augment the C++ standard library. The Abseil library code is collected from Google's own C++ code base, has been extensively tested and used in production, and is the same code we depend on in our daily coding lives.
+    In some cases, Abseil provides pieces missing from the C++ standard; in others, Abseil provides alternatives to the standard for special needs we've found through usage in the Google code base. We denote those cases clearly within the library code we provide you.
+    Abseil is not meant to be a competitor to the standard library; we've just found that many of these utilities serve a purpose within our code base, and we now want to provide those resources to the C++ community as a whole.
+Status: install ok installed
+
+Package: utf8-range
+Version: 4.25.1
+Depends: abseil, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 6baf0de3bb7bdadaf128d3bb78e15d79c1ca1eff9f7d4b7fce2ea932eca08557
+Description: Fast UTF-8 validation with Range algorithm (NEON+SSE4+AVX2)
+Status: install ok installed
+
+Package: protobuf
+Version: 4.25.1
+Port-Version: 1
+Depends: abseil, utf8-range, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 2d02b3a94762cea0a94eda3a2f49403aa1842461346ddb7de2a49d167bb78890
+Description: Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+Status: install ok installed
+
+Package: flatbuffers
+Version: 24.3.25
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 3ac367ead60d0372e9799e4e2fbb2dc596cc241f5ec4f35e8685faf0754a777f
+Description: FlatBuffers is a cross platform serialization library architected for maximum memory efficiency. It allows you to directly access serialized data without parsing/unpacking it first, while still having great forwards/backwards compatibility.
+Status: install ok installed
+
+Package: vcpkg-get-python-packages
+Version: 2024-09-29
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b5db7ca055308c1015f52aff9022c6df924a4fb138116fccc1b35e91d495b64c
+Status: install ok installed
+
+Package: opencv4
+Version: 4.10.0
+Depends: vcpkg-cmake, vcpkg-cmake-config, vcpkg-get-python-packages, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ebab1b3c001e043e80e95f752f17bb50eac34b20c7007e0f493a372a3eca2ee4
+Description: computer vision library
+Default-Features: default-features
+Status: install ok installed
+
+Package: opencv4
+Feature: calib3d
+Architecture: x64-windows
+Multi-Arch: same
+Description: calib3d module
+Status: install ok installed
+
+Package: opencv4
+Feature: default-features
+Architecture: x64-windows
+Multi-Arch: same
+Description: Platform-dependent default features
+Status: install ok installed
+
+Package: opencv4
+Feature: dnn
+Depends: flatbuffers, protobuf
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable dnn module
+Status: install ok installed
+
+Package: opencv4
+Feature: dshow
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable DirectShow
+Status: install ok installed
+
+Package: opencv4
+Feature: fs
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable filesystem support
+Status: install ok installed
+
+Package: opencv4
+Feature: gapi
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable gapi module
+Status: install ok installed
+
+Package: opencv4
+Feature: highgui
+Architecture: x64-windows
+Multi-Arch: same
+Description: highgui module
+Status: install ok installed
+
+Package: opencv4
+Feature: intrinsics
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable intrinsics
+Status: install ok installed
+
+Package: opencv4
+Feature: jpeg
+Depends: libjpeg-turbo
+Architecture: x64-windows
+Multi-Arch: same
+Description: JPEG support for opencv
+Status: install ok installed
+
+Package: opencv4
+Feature: png
+Depends: libpng
+Architecture: x64-windows
+Multi-Arch: same
+Description: PNG support for opencv
+Status: install ok installed
+
+Package: opencv4
+Feature: quirc
+Depends: quirc
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable QR code module
+Status: install ok installed
+
+Package: opencv4
+Feature: thread
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable thread support
+Status: install ok installed
+
+Package: opencv4
+Feature: tiff
+Depends: tiff
+Architecture: x64-windows
+Multi-Arch: same
+Description: TIFF support for opencv
+Status: install ok installed
+
+Package: opencv4
+Feature: webp
+Depends: libwebp
+Architecture: x64-windows
+Multi-Arch: same
+Description: WebP support for opencv
+Status: install ok installed
+
+Package: opencv4
+Feature: win32ui
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable win32ui
+Status: install ok installed
+
+Package: opencv
+Version: 4.10.0
+Depends: opencv4
+Architecture: x64-windows
+Multi-Arch: same
+Abi: d04d89028c1ecb04c21dd56246b3d6bc94764e0a790f022d12ae2c76b3a1adc1
+Description: computer vision library
+Default-Features: default-features
+Status: install ok installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2024-09-22
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 19da854a551daf9495f9acc8780f942c0bb727caa394f6f97e33e478711b0b17
+Status: install ok installed
+
+Package: openssl
+Version: 3.4.0
+Depends: vcpkg-cmake, vcpkg-cmake-config, vcpkg-cmake-get-vars
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 724585fa4249504ac807c8293179cb707dfc8fd92a9eacfa7ca6ac481f4a8d5c
+Description: OpenSSL is an open source project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.
+Status: install ok installed
+
+Package: pcre2
+Version: 10.43
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 0773524d9670d26407579cbf73c02f15790af75de91bf9eda8ab01f60781c308
+Description: Regular Expression pattern matching using the same syntax and semantics as Perl 5.
+Default-Features: platform-default-features
+Status: install ok installed
+
+Package: pcre2
+Feature: jit
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable support for Just-In-Time compiling regex matchers
+Status: install ok installed
+
+Package: pcre2
+Feature: platform-default-features
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable default features
+Status: install ok installed
+
+Package: expat
+Version: 2.6.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 5aac6078a3fee2447574dfb5c83cc211c5519754dffdcf758a00370ea6f3d7f9
+Description: XML parser library written in C
+Status: install ok installed
+
+Package: poco
+Version: 1.13.3
+Depends: expat, pcre2, vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: bbf33ada4368cb26658de35e17fe88a5b8b1d760701f9dba75a69cbd70e95ecc
+Description: Modern, powerful open source C++ class libraries for building network and internet-based applications that run on desktop, server, mobile and embedded systems.
+Status: install ok installed
+
+Package: poco
+Feature: crypto
+Depends: openssl
+Architecture: x64-windows
+Multi-Arch: same
+Description: Crypto support
+Status: install ok installed
+
+Package: poco
+Feature: netssl
+Architecture: x64-windows
+Multi-Arch: same
+Description: NetSSL support for POCO
+    By default, this feature uses the OpenSSL implementation. The `POCO_ENABLE_NETSSL_WIN` triplet variable can be used to switch to the NetSSL_Win module.
+Status: install ok installed
+

@@ -1,0 +1,102 @@
+/* styles.css */
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text for contrast */
+}
+
+.container { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center; /* Center all text inside the container */
+}
+
+.video-container { 
+    margin: 20px 0; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.video-container video { 
+    width: 100%; 
+    background: #333; /* Darker background for videos */
+}
+
+.controls { 
+    margin: 20px 0; 
+}
+
+button { 
+    margin: 5px; 
+    padding: 10px 20px; 
+    background: #007bff; /* Button color */
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+}
+
+button:hover { 
+    background: #0056b3; /* Darker button on hover */
+}
+
+/* Additional styling for status messages */
+#status {
+    margin: 10px 0; 
+    padding: 10px; 
+    border-radius: 4px; 
+}
+
+.error { 
+    background: #ffcccc; /* Light red for error messages */
+    color: #c00; 
+}
+
+.success { 
+    background: #ccffcc; /* Light green for success messages */
+    color: #0a0; 
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.modal-buttons {
+    margin-top: 20px;
+}
+
+.accept-button {
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 10px;
+}
+
+.reject-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.connected-peer {
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+}

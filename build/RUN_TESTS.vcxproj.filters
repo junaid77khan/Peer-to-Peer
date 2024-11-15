@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\riskl\OneDrive\Documents\Desktop\peer-to-peer\build\CMakeFiles\3e06e9e586592671639a94c2e2cd6ee2\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{01775A50-6B37-35B6-AEAC-E28A17CFC2C2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/CMakeFiles/P2PVideoStreaming.dir
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/CMakeFiles/INSTALL.dir
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/CMakeFiles/ZERO_CHECK.dir

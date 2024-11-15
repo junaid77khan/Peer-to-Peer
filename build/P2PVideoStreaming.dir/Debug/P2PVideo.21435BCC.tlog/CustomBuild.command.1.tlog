@@ -1,0 +1,10 @@
+^C:\USERS\RISKL\ONEDRIVE\DOCUMENTS\DESKTOP\PEER-TO-PEER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer -BC:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build --check-stamp-file C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

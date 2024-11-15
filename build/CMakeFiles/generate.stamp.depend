@@ -1,0 +1,121 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindOpenSSL.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindTIFF.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/CMakeLists.txt
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/CMakeFiles/3.31.0/CMakeCXXCompiler.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/CMakeFiles/3.31.0/CMakeRCCompiler.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/CMakeFiles/3.31.0/CMakeSystem.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/absl/abslConfig.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/absl/abslConfigVersion.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/absl/abslTargets-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/absl/abslTargets-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/absl/abslTargets.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/expat/expat-config-version.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/expat/expat-config.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/expat/expat-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/expat/expat-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/expat/expat.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/expat/vcpkg-cmake-wrapper.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/fmt/fmt-config-version.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/fmt/fmt-config.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/fmt/fmt-targets-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/fmt/fmt-targets-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/fmt/fmt-targets.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/opencv/vcpkg-cmake-wrapper.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/opencv4/OpenCVConfig-version.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/opencv4/OpenCVConfig.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/opencv4/OpenCVModules-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/opencv4/OpenCVModules-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/opencv4/OpenCVModules.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/openssl/vcpkg-cmake-wrapper.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/FindPCRE2.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoConfig.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoConfigVersion.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoCryptoConfig.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoCryptoConfigVersion.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoCryptoTargets-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoCryptoTargets-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoCryptoTargets.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoFoundationConfig.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoFoundationConfigVersion.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoFoundationTargets-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoFoundationTargets-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoFoundationTargets.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoJSONConfig.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoJSONConfigVersion.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoJSONTargets-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoJSONTargets-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoJSONTargets.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoNetConfig.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoNetConfigVersion.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoNetSSLConfig.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoNetSSLConfigVersion.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoNetSSLTargets-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoNetSSLTargets-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoNetSSLTargets.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoNetTargets-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoNetTargets-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoNetTargets.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoUtilConfig.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoUtilConfigVersion.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoUtilTargets-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoUtilTargets-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoUtilTargets.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoXMLConfig.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoXMLConfigVersion.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoXMLTargets-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoXMLTargets-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/poco/PocoXMLTargets.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/protobuf/protobuf-config-version.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/protobuf/protobuf-config.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/protobuf/protobuf-generate.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/protobuf/protobuf-module.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/protobuf/protobuf-options.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/protobuf/protobuf-targets-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/protobuf/protobuf-targets-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/protobuf/protobuf-targets.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/protobuf/vcpkg-cmake-wrapper.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/quirc/quirc-config-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/quirc/quirc-config-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/quirc/quirc-config.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/tiff/vcpkg-cmake-wrapper.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/utf8_range/utf8_range-config.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/utf8_range/utf8_range-targets-debug.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/utf8_range/utf8_range-targets-release.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/utf8_range/utf8_range-targets.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/build/vcpkg_installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/vcpkg-configuration.json
+C:/Users/riskl/OneDrive/Documents/Desktop/peer-to-peer/vcpkg.json
+C:/vcpkg/scripts/buildsystems/vcpkg.cmake
