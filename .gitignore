@@ -1,0 +1,61 @@
+# Ignore build directories
+/build/
+/cmake-build-*/
+
+# Ignore compiler-generated files
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Ignore intermediate files
+*.gch
+*.pch
+
+# Ignore logs and debugging files
+*.log
+*.trace
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# Ignore generated project files
+*.vcxproj
+*.vcxproj.*
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Ignore backup and temporary files
+*~
+*.swp
+*.tmp
+*.bak
+*.old
+*.orig
+.DS_Store
+
+# Ignore Poco build-related files
+poco-*
+
+# Ignore binary or package directories
+bin/
+lib/
+dist/
